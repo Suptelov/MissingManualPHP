@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style>
+            body{background-color: dimgrey;}
+            fieldset{                
+                clear:both;
+                width:300px;
+            }
+            p{font-size: 18px;}
+            input:hover{background-color:gold;}
+        
+        
+        </style>
+    </head>
+    <body>
+        <h1>Form Launch SQL Query</h1>
+        <p>Enter your PHP request:</p>
+        <form action="run_query.php" method="post">
+            <fieldset>
+                <textarea name="query" cols="65" rows="8"></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Launch Query"/>
+                <input type="submit" value="Reset Form" />
+            </fieldset>
+        </form>
+    </body>
+
+</html>
